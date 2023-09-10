@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>功過格</title>
+</head>
+<body>
+    <div class="header">
+        <h1>功過格</h1>
+    </div>
+
+    <div class="question-container">
+        <div class="question-box" id="question1">
+            <h2>因貧而不能孝養，於是就不管父母親</h2>
+            <label><input type="radio" name="q1" class="radio-button" value1="0" value2="3"> 有</label>
+            <label><input type="radio" name="q1" class="radio-button" value1="0" value2="0"> 無</label>
+        </div>
+
+        <div class="question-box" id="question2">
+            <h2>敬兄愛弟，讓別人休息自己擔任勞動，同一事不生異心</h2>
+            <label><input type="radio" name="q2" class="radio-button" value1="1" value2="0"> 有</label>
+            <label><input type="radio" name="q2" class="radio-button" value1="0" value2="0"> 無</label>
+        </div>
+
+        <div class="question-box" id="question3">
+            <h2>違犯法律法規</h2>
+            <label><input type="radio" name="q3" class="radio-button" value1="0" value2="1"> 1次</label>
+            <label><input type="radio" name="q3" class="radio-button" value1="0" value2="2"> 2次</label>
+            <label><input type="radio" name="q3" class="radio-button" value1="0" value2="3"> 3次</label>
+            <label><input type="radio" name="q3" class="radio-button" value1="0" value2="4"> 4次</label>
+            <label><input type="radio" name="q3" class="radio-button" value1="0" value2="5"> 5次</label>
+            <label><input type="radio" name="q3" class="radio-button" value1="0" value2="0"> 無</label>
+        </div>
+        
+        <div class="question-box" id="question4">
+            <h2>對父母親和氣婉容，自己心裏有憂憤事不流露出來，早晚問安，尊重、孝順奉養，自己修德、勤學，使父母感到喜悅</h2>
+            <label><input type="radio" name="q4" class="radio-button" value1="1" value2="0"> 有這樣做到</label>
+            <label><input type="radio" name="q4" class="radio-button" value1="0" value2="0"> 無</label>
+        </div>
+
+        <div class="question-box" id="question5">
+            <h2>父母親于倫常有欠缺之處，勸導使之和樂；化導父母親行仁成德；</h2>
+            <label><input type="radio" name="q5" class="radio-button" value1="100" value2="0"> 有這樣做到</label>
+            <label><input type="radio" name="q5" class="radio-button" value1="0" value2="0"> 無</label>
+        </div>
+
+        <div class="question-box" id="question6">
+            <h2>被父母厭惡討厭，能無怨無恨，積誠感動，挽回親心 / 自培厚德，顯親揚名 / 父母親喪葬，如法為作佛事</h2>
+            <label><input type="radio" name="q6" class="radio-button" value1="50" value2="0"> 做到其中一項</label>
+            <label><input type="radio" name="q6" class="radio-button" value1="100" value2="0"> 做到其中兩項</label>
+            <label><input type="radio" name="q6" class="radio-button" value1="150" value2="0"> 三項皆有</label>
+            <label><input type="radio" name="q6" class="radio-button" value1="0" value2="0"> 無</label>
+        </div>
+
+        <div class="question-box" id="question7">
+            <h2>父母親病，小心侍奉令痊癒</h2>
+            <label><input type="radio" name="q7" class="radio-button" value1="30" value2="0"> 有</label>
+            <label><input type="radio" name="q7" class="radio-button" value1="0" value2="0"> 無</label>
+        </div>
+
+        <div class="question-box" id="question8">
+            <h2>以出世道理勸化父母</h2>
+            <label><input type="radio" name="q8" class="radio-button" value1="20" value2="0"> 有</label>
+            <label><input type="radio" name="q8" class="radio-button" value1="0" value2="0"> 無</label>
+        </div>
+
+        <div class="question-box" id="question9">
+            <h2>遇一大事，勸父母親改過向善 / 終身遵守父母的一則良訓 / 為父母親補一過失及還一拖欠 / 父母親所愛敬人，加意愛敬</h2>
+            <label><input type="radio" name="q9" class="radio-button" value1="10" value2="0"> 做到其中一項</label>
+            <label><input type="radio" name="q9" class="radio-button" value1="20" value2="0"> 做到其中兩項</label>
+            <label><input type="radio" name="q9" class="radio-button" value1="30" value2="0"> 做到其中三項</label>
+            <label><input type="radio" name="q9" class="radio-button" value1="40" value2="0"> 四項皆有</label>
+            <label><input type="radio" name="q9" class="radio-button" value1="0" value2="0"> 無</label>
+        </div>
+
+    </div>
+
+    <!-- 提交按鈕放在總分數上方 -->
+    <div class="button-container">
+        <input type="button" value="提交" id="submit-button">
+    </div>
+
+    <!-- 左右並排的總計顯示 -->
+    <div class="score-container">
+        <div class="score-box1">
+            <h2>總計 功：</h2>
+            <div id="total-score">0</div>
+        </div>
+
+        <div class="score-box2">
+            <h2>總計 過：</h2>
+            <div id="pass-score">0</div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
