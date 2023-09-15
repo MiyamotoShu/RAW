@@ -154,3 +154,12 @@ body, h1, h2, label {
     background-color: #f5f5f5;
   }
   
+
+  @media (max-width: 768px) {
+    /* 添加自動換行 */
+    .question-box label {
+        display: block; /* 讓label元素佔據整個寬度 */
+        margin-right: 0; /* 清除右邊的margin */
+        white-space: normal;
+    }
+}
