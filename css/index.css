@@ -126,7 +126,7 @@ body, h1, h2, label {
     width: 100%;
     margin-top: 20px;
   }
-  
+
   #answer-table th, #answer-table td {
     border: 1px solid #ddd;
     padding: 8px;
@@ -147,6 +147,8 @@ body, h1, h2, label {
   /* 添加一些間距和樣式 */
   #answer-table h2 {
     margin-top: 20px;
+    padding: 10px;
+
   }
   
   /* 選中的答案行添加背景色 */
