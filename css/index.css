@@ -6,9 +6,12 @@ body, h1, h2, label {
 
 /* Apply background color and styles to the header */
 .header {
-    background-color: #6ca0e6;
+    background: #23074d;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
     padding: 20px;
+    
 }
 
 .header h1 {
@@ -20,6 +23,7 @@ body, h1, h2, label {
     margin: 20px;
     display: flex;
     flex-direction: column;
+    
 }
 
 .question-box {
@@ -27,6 +31,7 @@ body, h1, h2, label {
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 10px;
+    
 }
 
 .question-box h2 {
@@ -41,9 +46,11 @@ body, h1, h2, label {
 }
 
 .score-box1 {
-    background-color: #4a92ff;
+    background: #43cea2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #185a9d, #438dce);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #185a9d, #438dce); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #333;
-    text-align: center;
+        text-align: center;
     padding: 20px;
     border-radius: 10px;
     margin: 20px;
@@ -55,7 +62,9 @@ body, h1, h2, label {
 }
 
 .score-box2 {
-    background-color: #ff3737;
+        background: #e53935;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e35d5b, #e53935);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e35d5b, #e53935); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #333;
     text-align: center;
     padding: 20px;
