@@ -3,15 +3,23 @@ body {
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 .language-selection {
     text-align: center;
-    margin-top: 20%;
+    padding: 40px;
+    background: linear-gradient(135deg, #ffb442, #fe712b);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 36px;
+    color: white;
 }
 
 ul {
@@ -25,8 +33,8 @@ li {
 
 a {
     text-decoration: none;
-    font-size: 18px;
-    color: #007bff;
+    font-size: 24px;
+    color: #002e5f;
     transition: color 0.3s;
 }
 
